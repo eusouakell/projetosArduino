@@ -1,10 +1,9 @@
-#include <Arduino.h>
 int ledPin=10;
-
 // Essa funcao eh executa somente uma vez, eh nela que chamamos as outras funcoes
 void setup(){
     pinMode(ledPin, OUTPUT);
 }
+
 //Executa continuamente enquanto o Arduino estiver ligado
 void loop(){
   digitalWrite(ledPin,HIGH) ;

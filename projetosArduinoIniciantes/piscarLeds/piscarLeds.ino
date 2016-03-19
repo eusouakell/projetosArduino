@@ -1,7 +1,6 @@
-// projeto2.ino
-#include <Arduino.h>
 
-int ledPin=10;
+const int ledPin=10;
+
 void setup() {
 	pinMode(ledPin,OUTPUT);
 }
@@ -30,7 +29,6 @@ void loop() {
 		digitalWrite(ledPin, LOW);
 		delay(100);
 	}
-
-	delay(5000);
+  delay(5000);
 }
 
