@@ -5,6 +5,7 @@ const int greenLed=3;
 const int switchPin=2;
 
 void setup() {
+  Serial.begin(9600);
   pinMode(redLed1, OUTPUT);
   pinMode(redLed2, OUTPUT);
   pinMode(greenLed, OUTPUT);
